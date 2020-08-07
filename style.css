@@ -1,0 +1,713 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../FGO.jpg);
+	font-family: 'EB Garamond', serif;
+}
+#wrapper{
+	width: 1520px;
+	height: 5860px;
+	margin: 0 auto;
+}
+#header{
+	background: url(https://fate-go.us/assets/img/pc/common/menu/bg.png);
+	width: 1520px;
+	height: 45px;
+}
+#header .bg{
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+}
+.bg .logo{
+	background: url(../logo.png);
+	width: 95px;
+	height: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+.bg .menu{
+	width: 1100px;
+	height: 45px;
+	float: left;
+	margin-left: 5px;
+}
+.bg .menu ul{
+	list-style: none;
+}
+.bg .menu ul li{
+	float: left;
+	margin-left: 32px; 
+	width: 90px;
+	height: 35px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+.bg .menu ul li a{
+	text-decoration: none;
+	color: aliceblue;
+}
+#content{
+	width: 1520px;
+	height: 4800px;
+}
+.slide{
+	background: url(../FGO/FGO_media/FGO.gif);
+	width: 1520px;
+	height: 800px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.slide .in-slide{
+	width: 250px;
+	height: 120px;
+	padding-top: 640px;
+}
+.slide .in-slide .out-box{
+	background: #FFFFFF;
+	width: 232px;
+	height: 120px;
+	margin-left: 30px;
+	border: 1px solid #8C8C8C;
+}
+.slide .in-slide .out-box .b1{
+	width: 230px;
+	height: 55px;
+	padding-top: 10px;
+}
+.b1 .log-game{
+	background: url(https://fate-go.us/assets/img/common/icon_game.png);
+	width: 55px;
+	height: 55px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	float: left;
+}
+.b1 .event-ads{
+	background: url(https://fate-go.us/images/event_servant_fest2020.png);
+	width: 150px;
+	height: 55px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.slide .in-slide .out-box .b2{
+	width: 230px;
+	height: 55px;
+	padding-top: 10px;
+}
+.b2 .app-store{
+	background: url(https://fate-go.us/assets/img/common/btn_app.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 35px;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+}
+.b2 .google-play{
+	background: url(https://fate-go.us/assets/img/common/btn_google.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 35px;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+}
+.bar{
+	background: url(../bg_bar.png);
+	width: 1520px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box2{
+	width: 1520px;
+	height: 315px;
+	margin-top: 50px;
+}
+.vid{
+	width: 1520px;
+	height: 315px;
+}
+.video{
+	margin-left: 200px;
+	float: left;
+}
+.box2 .vid .tab0{
+	width: 1520px;
+	height: 250px;
+	padding-top: 65px;
+}
+.box2 .vid .tab0 .tab1{
+	background: url(../CHALDEAS1.png);
+	width: 1520px;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.video .inf0{
+	width: 760px;
+	height: 300px;
+	float: right;
+	padding-top: 15px;
+}
+.video .inf0 .inf1{
+	background: url(https://fate-go.us/assets/img/pc/top/main/txt_lead01.png);
+	width: 500px;
+	height: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.video .text0{
+	background: url(https://fate-go.us/assets/img/pc/top/main/txt_lead02.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	width: 700px;
+	height: 100px;
+}
+.video .text0 .fou{
+	background: url(https://vignette.wikia.nocookie.net/fategrandorder/images/e/ee/Fou_Riyo.png/revision/latest?cb=20161119053040);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	width: 215px;
+	height: 215px;
+}
+.video .text0 .fou:hover{
+	background: url(../fate-grand-order-e-pluribus-unum-kiyohime-fate-stay-night-enkidu-scathach-thumb.jpg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	width: 160px;
+	height: 160px;
+}
+.chars{
+	width: 1520px;
+	height: 500px;
+	background: url(https://fate-go.us/assets/img/pc/common/bg_title.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+.chars .box1{
+	width: 1505px;
+	height: 456px;
+	margin-left: 15px;
+	overflow: hidden
+}
+.box1 .s1{
+	background: url(../SaberBackGold.png);
+	background-size: cover;
+	height: 540px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s1:hover{
+	background: url(../saber01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s2{
+	background: url(../6601895caf233018b33d70a9531c01e2.jpg);
+	background-size: cover;
+	height: 462px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s2:hover{
+	background: url(../archer01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s3{
+	background: url(../lancer.jpg.png);
+	background-size: cover;
+	height: 540px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s3:hover{
+	background: url(../lancer01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s4{
+	background: url(../a8048cc01cf8aaf4f61216af738e9f44.jpg.png);
+	background-size: cover;
+	height: 520px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s4:hover{
+	background: url(../rider01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s5{
+	background: url(../97a173482aa2d4fcc9b50445ec7d99da.jpg.png);
+	background-size: cover;
+	height: 540px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s5:hover{
+	background: url(../caster01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s6{
+	background: url(../d8a27c4aed4d3855b864a6fac8de6804.jpg.png);
+	background-size: cover;
+	height: 540px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s6:hover{
+	background: url(../assassin01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s7{
+	background: url(../BerserkerBackGold.png);
+	background-size: cover;
+	height: 540px;
+	width: 175px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s7:hover{
+	background: url(../berserker01.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.box1 .s8{
+	background: url(../RulerBackGold.png);
+	background-size: cover;
+	height: 540px;
+	width: 270px;
+	float: left;
+	transition-duration: 0.3s;
+}
+.box1 .s8:hover{
+	background: url(../extra02.png);
+	background-size: cover;
+	width: 280px;
+	height: 600px;
+	float: left;
+}
+.News{
+	width: 1520px;
+	height: 1750px;
+}
+.News .top-news{
+	width: 1520px;
+	height: 1750px;
+	margin: 0 auto;
+	background: url(../7364918b32a4da02217e06df885ceb06.jpg-1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.News .top-news .jeane{
+	background: url(../ef9be7bfbeefc1e0bfcfcaa572e3b606.jpg);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	margin-top: 250px;
+	float: left;
+}
+.News .top-news .jeane .douji{
+	background: url(../IMG_0844.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 300px;
+}
+.News .top-news .jeane .gil{
+	background: url(../GilgameshCastAF.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 100px;
+}
+.News .top-news .box{
+	background: url(../CHALDEAS.png);
+	width: 150px;
+	height: 200px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 250px;
+}
+.News .top-news .box .gudako{
+	background: url(../75-754374_gudako-gudako-fgo.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 150px;
+}
+.News .top-news .box .gudako:hover{
+	background: url(../7364918b32a4da02217e06df885ceb06.jpg.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 200px;
+}
+.News .top-news .box .jeane2{
+	background: url(../300px-Portrait_Servant_216_F.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+.News .top-news .box .edmon{
+	background: url(../725e31660219565824c9b89465cbe732.png);
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+.News .top-news .in{
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+.News .top-news .in .left-news{
+	background: #FFFFFF;
+	width: 830px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.News .top-news .in .left-news .bar0{
+	background: url(https://fate-go.us/assets/img/pc/top/info/title_news.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 500px;
+	height: 85px;
+}
+.News .top-news .in .left-news .news1{
+	background: url(https://webview.fate-go.us/wp-content/uploads/2020/08/0801_servant_festival/banner_20200822_q1ax6.png);
+	width: 750px;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.News .top-news .in .left-news .news2{
+	background: url(https://webview.fate-go.us/wp-content/uploads/2020/08/0801_servant_festival_pu1/banner_20200822_x0wa7.png);
+	width: 750px;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.News .top-news .in .left-news .news3{
+	background: url(https://webview.fate-go.us/wp-content/uploads/2020/08/0801_servant_festival_pu2/banner_20200822_f9hj6.png);
+	width: 750px;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.News .top-news .in .box0{
+	background: url(https://fate-go.us/servant_fest/assets/img/servant_00.png);
+	width: 900px;
+	height: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.News .top-news .in .box0 .movie{
+	padding-top: 310px;
+	margin-left: 580px;
+}
+.staff{
+	width: 1520px;
+	height: 730px;
+	margin-top: 50px;
+}
+.staff .tag{
+	background: url(https://fate-go.us/assets/img/pc/top/staff/title_staff.png);
+	width: 420px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.staff .mem{
+	background: url(https://fate-go.us/assets/img/pc/top/staff/txt_staff.png);
+	width: 800px;
+	height: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.movie-area{
+	width: 1520px;
+	height: 310px;
+	background: url(../bg_bar.png);
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.movie-area .tag2{
+	background: url(https://fate-go.us/assets/img/pc/top/movie/title_movie.png);
+	width: 420px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.movie-area .movie2{
+	width: 1520px;
+	height: 178px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.50);
+	padding-top: 20px;
+}
+.movie-area .movie2 .v1{
+	margin-left: 10px;
+	float: left;
+}
+.movie-area .movie2 .v2{
+	margin-left: 10px;
+	float: left;
+}
+.movie-area .movie2 .v3{
+	margin-left: 10px;
+	float: left;
+}
+.movie-area .movie2 .v4{
+	margin-left: 10px;
+	float: left;
+}
+.movie-area .movie2 .v5{
+	margin-left: 10px;
+	float: left;
+}
+.movie-area .movie2 .next{
+	background: url(../arrow.png);
+	width: 50px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 35px;
+}
+.banner-area{
+	width: 1520px;
+	height: 200px;
+	margin-top: 10px;
+}
+.banner-area .ban0{
+	width: 1230px;
+	height: 60px;
+	margin: 0 auto;
+}
+.banner-area .ban0 .ban1{
+	background: url(https://fate-go.us/assets/img/common/bnrs/banner_gudao.png);
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+.banner-area .ban0 .ban2{
+	background: url(https://fate-go.us/assets/img/common/bnrs/manwaka2.png);
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.banner-area .ban0 .ban3{
+	background: url(https://fate-go.us/assets/img/common/bnrs/banner_manwaka.png);
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.banner-area .ban0 .ban4{
+	background: url(https://fate-go.us/assets/img/common/bnrs/fgo_usa_tour2019.jpg);
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.banner-area .ban7{
+	width: 610px;
+	height: 100px;
+	margin: 0 auto;
+}
+.banner-area .ban7 .ban5{
+	background: url(https://fate-go.us/assets/img/common/bnrs/usetip-biginers.jpg);
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;float: left;
+	cursor: pointer;
+}
+.banner-area .ban7 .ban6{
+	background: url(https://fate-go.us/assets/img/common/bnrs/banner_fgo_ost.jpg);
+	width: 300px;
+	height: 100px;
+	margin-left: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;float: left;
+	cursor: pointer;
+}
+#footer{
+	background: url(https://fate-go.us/assets/img/pc/common/footer/bg.jpg);
+	width: 1520px;
+	height: 1000px;
+	background-size: contain;
+	margin-top: 80px;
+}
+.foot1{
+	width: 1520px;
+	height: 600px;
+}
+.bar1{
+	background: url(../btn_pagetop.png);
+	width: 500px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 1000px;
+	cursor: pointer;
+}
+.foot2{
+	background: black;
+	border: 1px solid rgba(139,142,119,1.00);
+	width: 1520px;
+	height: 365px;
+}.foot1 .inf{
+	width: 830px;
+	height: 600px;
+	float: left;
+	margin-left: 100px;
+	padding-top: 100px;
+}
+.foot1 .tag3{
+	width: 440px;
+	height: 500px;
+	float: left;
+	margin-left: 10px;
+	padding-top: 100px;
+}
+.foot1 .inf .inf2{
+	background: url(../Untitled-1.png);
+	width: 830px;
+	height: 500px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.foot1 .tag3 .logo3{
+	background: url(https://fate-go.us/assets/img/pc/common/footer/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 300px;
+}
+.foot1 .tag3 .logo3 .apps{
+	width: 400px;
+	height: 200px;
+}
+.apps .app{
+	background: url(https://fate-go.us/assets/img/common/btn_app.png?190913);
+	width: 190px;
+	height: 80px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+.apps .google{
+	background: url(https://fate-go.us/assets/img/common/btn_google.png);
+	width: 190px;
+	height: 80px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.foot2 .end{
+	width: 1520px;
+	height: 200px;
+	padding-top: 45px;
+}
+.foot2 .end .name{
+	background: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/107535766_325263225308608_3449153767585991426_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=OpmO_rcY5NkAX8zCpWC&_nc_oc=AQk9HocP4umuhcz7OhmAvsPic1LxdMhJcKDokw_Cg-LfcNuoBav3Mvrvq9_YRL3kYRQ&_nc_ht=scontent.fsgn8-1.fna&oh=0ea1015657cd698366cd3118d9afc41a&oe=5F547D1A);
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-right: 45px;
+	background-size: contain;
+}
+.foot2 .end p{
+	text-align: right;
+	margin-right: 220px;
+	color: aliceblue;
+	height: 0px;
+	float: right;
+}
